@@ -1,0 +1,22 @@
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-right: 0.125rem !important
+ }
+ 
+ html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-left: 0.125rem !important
+ }
+#page{
+   font-size: 13px !important
+
+}
+#tableContainer{
+   border-color: honeydew !important
+}
+#Label{
+   background-color: mediumaquamarine !important
+}
+ .myAppDemoWT .myCustomText {
+    display: inline-block;
+    font-weight: bold;
+    background-color: turquoise !important
+ }

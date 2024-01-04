@@ -1,0 +1,31 @@
+<mvc:View controllerName="javastable.controller.JavascriptTable"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+
+    <App id="App" class="myAppDemoWT">
+    <Page id="page" title="{i18n>title}">
+    <VBox id="tableContainer" />
+        
+        <content>
+								<Button id="Button"
+									text="{i18n>showHelloButtonText}"
+									press=".onShowHello"
+									class="myCustomButton"/>
+								<Label id="Label"
+									
+									width="60%"/>
+								<FormattedText id="Formatted"
+									htmlText="Hello {/Nome}"
+									class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+                                    
+							</content>
+
+
+
+
+
+
+
+    </Page>
+    </App>
+</mvc:View>
