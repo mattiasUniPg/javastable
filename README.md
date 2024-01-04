@@ -35,3 +35,4 @@ A Fiori application.
 
 
 # javastable
+# tablecontactlist
